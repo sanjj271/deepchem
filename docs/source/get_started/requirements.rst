@@ -12,6 +12,7 @@ DeepChem officially supports Python 3.8 through 3.10 and requires these packages
 - `scikit-learn`_
 - `SymPy`_
 - `SciPy`_
+- `rdkit`_
 
 
 Soft requirements

@@ -11,11 +11,17 @@ this directory. To generate docs in HTML, run the following commands:
 
 .. code-block:: shell
 
+   $ cd docs
    $ pip install -r requirements.txt
    $ make html
    # Clean build
    $ make clean html
+   # for macOS users
    $ open build/html/index.html
+   # for Windows users
+   $ start build/html/index.html
+   # for Linux users
+   $ xdg-open build/html/index.html
 
 Testing
 -------
